@@ -1,5 +1,7 @@
 # SyringePumpProject
-This repo goes over a project I worked on alongside a team to create and operate a syringe pump project.
+This is the repo for a synringe pump project. The syringe pump uses a motor rotating a lead screw, with a nut that drives the plunger forward to push the fluid out of the syringe barrel. It offers high accuracy and sterility, making it a valuable tool in highly critical and controlled environments. Because of this, a syringe pump can be very expensive, but this project goes over a more affordable alternative by useing CAD, 3D printing, and electrical prototyping to construct a customizable and cost-effective syringe pump. CAD models of the motor and syringe mount as well as the electrical wiring enclosure were designed in Fusion360, and the wiring and controlling were done using a breadboard and Arduino microcontroller.
+
+## [Code to run syringe pump](https://github.com/Serpenlog/SyringePumpProject/blob/main/SyringePumpCode.cpp)
 
 ## Operating the Syringe Pump:
 1.	Fill the syringe with the desired volume of liquid.
@@ -49,3 +51,6 @@ The motor mounting plate is printed in ABS because of its strength and higher me
 ![Syringe Pump Finished](images/syringe-pump.jpg)
 ![Syringe Pump Rendering 1](images/syringe-pump-render1.png)
 ![Syringe Pump Rendering 2](images/syringe-pump-render2.png)
+
+## CAD Model:
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c39d816191a459a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
